@@ -1,14 +1,3 @@
-/*
-  DigitalReadSerial
-
-  Reads a digital input on pin 2, prints the result to the Serial Monitor
-
-  This example code is in the public domain.
-
-  http://www.arduino.cc/en/Tutorial/DigitalReadSerial
-*/
-
-// digital pin 12 has a pushbutton attached to it
 Writecodehere//Assign value 12 to a variable "pushButton"
 int LED=3;   // digital pin 3 has LED attached to it
 // the setup routine runs once when you press reset:
