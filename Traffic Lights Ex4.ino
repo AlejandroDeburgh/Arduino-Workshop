@@ -1,18 +1,17 @@
 int Red=4;
 int Yellow=5;
-int Green=6;
-
+int Green=6;//Set value 6 to a variable "Green"
 void setup() {
   // put your setup code here, to run once:
 pinMode(Green,OUTPUT); //set pin as output
 pinMode(Yellow,OUTPUT); //set pin as output
-pinMode(Red,OUTPUT); //set pin as output
+WRITECODEHERE//set RED pin as output
 
 digitalWrite(Green,LOW); //initial state
-digitalWrite(Yellow,LOW); //initial state
+WRITE CODE HERE //initial state for yellow LED
 digitalWrite(Red,LOW); //initial state
 
-Serial.begin(9600);
+WRITECODEHERE//Begin serial monitor
 }
 
 void loop() {
@@ -24,12 +23,12 @@ digitalWrite(Yellow,HIGH);
 digitalWrite(Red,LOW);
 
 Serial.println(" Light Mode : Yield ");
-delay(1000);
+WRITECODEHERE//1 SECOND DELAY
 
 // Go
-digitalWrite(Green,HIGH);
-digitalWrite(Yellow,LOW);
-digitalWrite(Red,LOW);
+WRITECODEHERE
+WRITECODEHERE
+WRITECODEHERE
 
 Serial.println(" Light Mode : Go ");
 delay(2000);
