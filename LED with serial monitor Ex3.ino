@@ -2,8 +2,8 @@ int LED=4; //we connected the LED to pin 4
 int counter=0; //initialize counter
 void setup() {
   // put your setup code here, to run once:
-pinMode(LED,OUTPUT); //set pin 4 as output
-Serial.begin(9600); //begin serial monitor
+ //set pin 4 as output
+  //begin serial monitor
 }
 
 void loop() {
@@ -11,8 +11,8 @@ void loop() {
   counter=counter+1; // increment counter
   Serial.print("Blink Number: ");
   Serial.println(counter);
-digitalWrite(LED,HIGH); //set pin 4 as output
+digitalWrite(LED,HIGH); //Power LED ON
 delay(1000); //wait 1 second
-digitalWrite(LED,LOW); //set pin 4 as input
+ //Power LED OFF
 delay(1000); //wait 1 second
 }
