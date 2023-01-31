@@ -9,14 +9,14 @@
 */
 
 // digital pin 12 has a pushbutton attached to it
-int pushButton = 12;
+Writecodehere//Assign value 12 to a variable "pushButton"
 int LED=3;   // digital pin 3 has LED attached to it
 // the setup routine runs once when you press reset:
 void setup(){
   
 Serial.begin(9600);// initialize serial communication at 9600 bits per second: 
-pinMode(pushButton, INPUT);// make the pushbutton's pin an input:
-pinMode(LED,OUTPUT); // make the LED pin an output
+Writecodehere// set the pushbutton's pin an input:
+Writecodehere // make the LED pin an output
 }
 
 // the loop routine runs over and over again forever:
@@ -26,7 +26,7 @@ void loop() {
   
   if (buttonState==HIGH)// when the pushbutton is pressed
   {
-    digitalWrite(LED,HIGH); // Sending HIGH Signal to LED
+    Writecodehere // Power on LED
     Serial.print (" Pushbutton is pressed, value is : ");
   Serial.println(buttonState);// print out the state of the button:
   }
@@ -34,7 +34,7 @@ void loop() {
   {
     digitalWrite(LED,LOW); // Sending LOW signal to LED
     Serial.print (" Pushbutton is not pressed, value is : ");
-  Serial.println(buttonState);// print out the state of the button:    
+ Writecodehere// print out the state of the button:    
   }
   delay(1);        // delay in between reads for stability
 }
